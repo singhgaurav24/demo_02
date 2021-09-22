@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  become: true
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    - Lab_011
+    - Lab_02
+    - Lab_03
+    - Lab_04
+   
